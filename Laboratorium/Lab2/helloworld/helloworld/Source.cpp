@@ -8,8 +8,8 @@ float kalkulator();
 
 int main(){
 
-	//minmax();
-	rownanie_kwadratowe();
+	minmax();
+	//rownanie_kwadratowe();
 	//kalkulator();
 
 	return 0;
@@ -22,20 +22,18 @@ int minmax() {
 	int max = wartosc;
 	int min = wartosc;
 
-
-	do {
+	while(wartosc != pow(2, 15)){
 		cout << "Podaj liczbe calkowita" << endl;
 		cin >> wartosc;
 		if (wartosc > max) max = wartosc;
 		if (wartosc < min) min = wartosc;
-	} while (wartosc != pow(2, 15));
+	} 
 	cout << "Min=" << min << ", " << "Max=" << max << endl;
 
 	return 0;
 }
 
 float rownanie_kwadratowe() {
-
 	cout << "Podaj a: ";
 	float a = 0;
 	cin >> a;
@@ -66,7 +64,6 @@ float rownanie_kwadratowe() {
 				float x2 = (-b + sqrt(delta)) / (2 * a);
 				cout << "x1=" << x1 << ", " << "x2=" << x2 << endl;
 			}
-
 		}
 	}
 	return 0;
