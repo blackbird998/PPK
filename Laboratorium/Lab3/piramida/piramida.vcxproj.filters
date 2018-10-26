@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="podajwartosc.cpp">
+    <ClCompile Include="piramida.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
