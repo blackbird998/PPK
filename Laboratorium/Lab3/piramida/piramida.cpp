@@ -73,16 +73,16 @@ int losowanie() {
 	cout << "Podaj A i B: " << endl;
 	cin >> A;
 	cin >> B;
-	//polowa przedzialu A + (B - A) / 2 nasza_liczba<(A+(B-A)/2
+	//polowa przedzialu A + (B - A) / 2 
 
 	srand(time(NULL));
-	while(1){
+	do{
 	r = rand();
 	nasza_liczba = double(r) / double(RAND_MAX);
 	nasza_liczba = nasza_liczba* double(B - A);
 	nasza_liczba = nasza_liczba + double(A);
 	cout << nasza_liczba << endl;
 	system("pause");
-	}
+	} while (nasza_liczba<(A + (B - A) / 2));
 	return 0;
 }
