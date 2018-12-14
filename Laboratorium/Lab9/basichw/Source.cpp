@@ -30,14 +30,19 @@ void tabDym(int n) {
 	}
 	cout << endl;
 
-
+	int x;
+	cout << &x << " " << &x + 1 << endl;
+	int min;
 	int *wsk_na_p_tab;
 	new int[n];
 	wsk_na_p_tab = new int[n];
 	for (int i = 0; i < n; i++) {
+
 		wsk_na_p_tab[i] = 1;
 		cout << new int[i]<<endl;
 		cout << wsk_na_p_tab[i] << endl;
+		//wyszukanie adresu o najmniejszej wartosci
+		if (new int[i] < min) min = new int[i];
 	}
 	delete[] wsk_na_p_tab;
 }
