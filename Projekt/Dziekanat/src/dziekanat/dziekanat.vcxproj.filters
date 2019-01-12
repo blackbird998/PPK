@@ -20,10 +20,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="prot.txt">
+    <Text Include="prot0.txt">
       <Filter>Pliki zasobów</Filter>
     </Text>
     <Text Include="prot1.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
+    <Text Include="prot2.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
+    <Text Include="prot3.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
+    <Text Include="prot4.txt">
       <Filter>Pliki zasobów</Filter>
     </Text>
   </ItemGroup>

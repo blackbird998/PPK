@@ -118,8 +118,11 @@
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="prot.txt" />
+    <Text Include="prot0.txt" />
     <Text Include="prot1.txt" />
+    <Text Include="prot2.txt" />
+    <Text Include="prot3.txt" />
+    <Text Include="prot4.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

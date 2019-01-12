@@ -1,0 +1,5 @@
+AMIAL
+dr Jan Nowak
+Jan		Jaworek	14332	2.5	2012-02-29
+Bartlomiej	Bukowy	14344	4.0	2016-01-30
+Karol		Krol	12433	5.0	2012-01-28

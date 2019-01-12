@@ -1,0 +1,11 @@
+Wstep do programowania
+
+dr inz. Jan Kowalski
+
+
+Jan		Jaworek	14332	4.5	2012-02-29
+Bartlomiej	Bukowy	14344	6.0	2016-01-30
+
+
+
+Karol		Krol	12433	2.0	2012-01-28
